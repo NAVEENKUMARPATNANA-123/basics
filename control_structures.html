@@ -9,17 +9,31 @@
     <form id="profileForm">
     <label>Name: </label>
     <input type="text" id="name" required placeholder="name"><br><br>
-    <label>Age: </label>
-    <input type="number" id="age" required placeholder="age"><br><br>
+    <label>Role: </label>
+    <input type="text" id="role" required placeholder="role"><br><br>
     <button type="button" onclick="saveProfile()">Submit</button>
   </form>
   <p id="output"> </p>
   <script >
     function saveProfile(){
         let name=document.getElementById("name").value;
-        let age=document.getElementById("age").value;
+        let role=document.getElementById("role").value;
         console.log(`Hello ${name}`);
-        document.getElementById("output").innerHTML=`Hello ${name}- Age is ${age}`;
+        role=role.trim();
+        role=role.toLowerCase();
+        if (role=="admin"){
+            alert(`Hello ${role}`);
+        }
+        else if (role=="guest"){
+            alert(`Hello ${role}`);
+        }
+        else if (role=="member"){
+            alert(`Hello ${role}`);
+        }
+        else{
+            alert(`Invalid User`);
+        }
+    
     }
   </script>
 </body>
