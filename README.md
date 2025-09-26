@@ -2,7 +2,7 @@
 
 ---
 
-## 📌 Day 1: Core JavaScript Concepts
+
 
 ### 1. Variables (`var`, `let`, `const`)
 
@@ -38,16 +38,17 @@
 - **Error Handling:**  
   _Scenario:_ Handle login errors when users enter incorrect credentials.
 
-### 1. Arrays and Objects
+### 7. Arrays and Objects
 
 **Scenario:** Manage a to-do list where each item has properties (title, completed status).
 
-### 2. Destructuring & Spread/Rest Operators
+### 8. Destructuring & Spread/Rest Operators
 
 **Scenario:** Merge user settings with default settings in a web app.
 
-### 3. ES6+ Features
+### 9. ES6+ Features
 
 **Scenario:** Use template literals for generating dynamic HTML content.
 
 ---
+
